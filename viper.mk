@@ -21,15 +21,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ugglite device
 $(call inherit-product, device/xiaomi/ugglite/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common ViperOS stuff.
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
+$(call inherit-product, vendor/viper/config/common.mk)
 
 PRODUCT_DEVICE := ugglite
 PRODUCT_BRAND := Xiaomi
-PRODUCT_NAME := lineage_ugglite
+PRODUCT_NAME := viper_ugglite
 BOARD_VENDOR := Xiaomi
-PRODUCT_MODEL := Redmi Note 5A
+PRODUCT_MODEL := Redmi Note 5A Lite
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Build type
+VIPER_BUILD_TYPE=Final-N
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
