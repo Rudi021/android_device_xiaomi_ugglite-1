@@ -20,4 +20,3 @@ Front Camera | 5.0 MP
 Release Date | November 2017
 
 ![Xiaomi Redmi Note 5A/Y1 Lite](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-5as-2.jpg "Xiaomi Redmi Note 5A/Y1 Lite")
-

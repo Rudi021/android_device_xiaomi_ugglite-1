@@ -26,12 +26,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-# Define fastmmi
-#service fastmmi /system/bin/mmi
-#    user root
-#    group root
-#    disabled
-
 on property:sys.boot_mode=ffbm
     write -p /dev/block /dev/block/bootdevice/by-name/misc "ffbm-01"
 
@@ -99,6 +93,5 @@ on ffbm
 
     trigger early-boot
     trigger boot
-    #trigger mmi
     setprop service.adb.root 1
     setprop persist.sys.openwifi_L 1
