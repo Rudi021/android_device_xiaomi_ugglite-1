@@ -16,10 +16,10 @@
 
 $(call inherit-product, device/xiaomi/ugglite/full_ugglite.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ViperOS stuff.
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ugglite
+PRODUCT_NAME := viper_ugglite
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
